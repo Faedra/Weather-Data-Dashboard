@@ -25,6 +25,13 @@ body {
     justify-content: flex-end;
   }
 
+  .dropdown-item {
+    color: #22a5a5;
+  }
+
+  .container {
+    padding: 0px;
+  }
   .header {
     background-image: url('images/clouds_pink.jpg');
     background-size: cover;
@@ -50,6 +57,10 @@ body {
   }
 
   .description h1 {
+    color: #22a5a5;
+  }
+
+  .description h3 {
     color: #22a5a5;
   }
 
@@ -84,6 +95,14 @@ body {
     margin-top: 20px;
     text-transform: uppercase;
   }
+  .feature-subtitle {
+    color: #333;
+    font-size: 1.0rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
   .features img {
     -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
@@ -94,12 +113,14 @@ body {
   .h2 {
     color: #22a5a5;
     background-color: white;
-    padding: 30px 10px 10px 40px;
+    padding: 30px 10px 10px 30px;
+    margin-bottom: 0;
   }
 
   .data {
       background-color: white;
-      padding: 40px;
+      padding: 30px 10px 10px 30px;
+      width: fit-content;
   }
 
   .subhead {
@@ -110,25 +131,38 @@ body {
     background-color: #222;
     color: #ccc;
     padding: 5px 0 5px;
+    border-top-color: #22a5a5;
+    border-top-width: 5px;
   }
   .footer-copyright {
     color: #666;
-    padding: 40px 0;
+    padding: 15px 0;
   }
 
-  /* .box {
-    min-height: 50px;
-    padding: 5px;
-    margin: 5px;
-    font-weight: 800;
-    color: #fff;
-  }
+  .img-small {
+    padding: .20px;
+    margin-right: 20px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 300px;
+    height: auto;
+}
 
-  .skyblue {
-    background: deepskyblue;
-  }   */
+.img-boxed {
+  padding: .20px;
+  margin: 0px 20px 20px 0px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  max-width: 120px;
+  height: auto;
+  position: relative;
+}
 
-  /* media queries:  */
+.img-fluid {
+  margin-bottom: 20px;
+}
   
   @media (max-width: 575.98px) {
     .description {
@@ -165,4 +199,8 @@ body {
   .button {
       color: #22a5a5;
   }
+  .img-boxed {
+    max-width: 200px;
+    height: auto;
   }
+}
