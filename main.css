@@ -188,19 +188,17 @@ body {
   }
 
   @media (max-width: 480px) {
-    .navbar {
-      background: white;
-    }
-    .nav-link,
-    .navbar-brand {
-    color: #22a5a5;
-    cursor: pointer;
-  }
+
   .button {
       color: #22a5a5;
   }
   .img-boxed {
     max-width: 200px;
     height: auto;
+    padding: 15px;
   }
+  .container.landing {
+    margin: 10px;
+  }
+
 }
