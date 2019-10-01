@@ -2,7 +2,7 @@
 
 A web dashboard/visualization presenting analysis of a weather dataset using HTML/CSS/JavaScript, as well as Bootstrap components, responsive design and media queries.
 
-## This website is deployed to GitHub Pages @ faedra.github.io/Weather-Data-Dashboard/
+## This website is deployed to GitHub Pages @ https://faedra.github.io/Weather-Data-Dashboard/
 
 ### Project Description:
 
